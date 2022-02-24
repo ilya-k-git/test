@@ -1,0 +1,61 @@
+
+.name{
+  margin: 20px;
+
+}
+.input{
+  width: 400px;
+}
+  .btnCancel{
+    background: rgb(112, 112, 112);
+
+  }
+  .btnAdd{
+    width: 200px;
+    height: 40px ;
+    margin: 20px;
+    background: rgb(13, 80, 18);
+    color: aliceblue; 
+
+  }
+  .btnDel{
+    background: rgb(236, 132, 13);
+    margin: 5px;
+
+  }
+  .btnEdit{
+    background: rgb(40, 106, 247);
+    margin: 5px;
+
+  }
+
+   .tableBorder {
+    width: 500px;
+   }
+
+
+  
+  .table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th {
+    background-color: rgb(190, 235, 108);
+    border: 1px solid rgb(143, 175, 84);
+    min-width: 50px;
+  }
+  td {
+    border: 1px solid rgb(143, 175, 84);
+  }
+  td, th {
+    text-align: left;
+    padding: 10px;
+  }
+  tr{
+    background-color: rgb(218, 238, 212);
+  }
+  tr:nth-child(even) {
+    background-color: rgb(224, 248, 215);
+  }

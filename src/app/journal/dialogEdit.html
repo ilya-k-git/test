@@ -1,0 +1,20 @@
+
+<div mat-dialog-content >
+<p>Карточка редактирования статьи</p>
+  <mat-form-field>
+    <mat-label> Название</mat-label>
+    <input matInput [(ngModel)]="data.dialogArticle"   autocomplete="off" class="fill" >
+</mat-form-field>
+    <mat-form-field >
+    <mat-label>Описание</mat-label>
+    <input matInput [(ngModel)]="data.dialogarticleDescription"  autocomplete="off" class="fill">
+  </mat-form-field>
+</div>
+<div mat-dialog-actions>
+  <button class="btnEdit" mat-button 
+  [mat-dialog-close]="data" cdkFocusInitial>Сохранить</button>
+  <button class="btnCancel" mat-button (click)="onNoClick()">Закрыть</button>
+
+</div>
+
+<h2></h2>
